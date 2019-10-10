@@ -1,0 +1,32 @@
+=============== Aug 27, 2019 (BST) ===============
+08:27:26.926737 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:27:26.928923 db@open opening
+08:27:26.931366 version@stat F·[] S·0B[] Sc·[]
+08:27:26.932321 db@janitor F·2 G·0
+08:27:26.932347 db@open done T·3.40782ms
+08:27:27.326583 db@close closing
+08:27:27.326642 db@close done T·58.345µs
+=============== Aug 27, 2019 (BST) ===============
+08:27:40.228771 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:27:40.228881 version@stat F·[] S·0B[] Sc·[]
+08:27:40.228897 db@open opening
+08:27:40.228935 journal@recovery F·1
+08:27:40.231118 journal@recovery recovering @1
+08:27:40.299811 memdb@flush created L0@2 N·21261 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+08:27:40.302029 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+08:27:40.328320 db@janitor F·3 G·0
+08:27:40.328381 db@open done T·99.46629ms
+08:27:40.499006 db@close closing
+08:27:40.499108 db@close done T·99.566µs
+=============== Aug 27, 2019 (BST) ===============
+08:28:33.568782 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:28:33.568906 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+08:28:33.568923 db@open opening
+08:28:33.568962 journal@recovery F·1
+08:28:33.571178 journal@recovery recovering @3
+08:28:33.572223 memdb@flush created L0@5 N·2 S·497B "Las..der,v21264":"eth..ˏ\xa3,v21263"
+08:28:33.574342 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+08:28:33.597131 db@janitor F·4 G·0
+08:28:33.597159 db@open done T·28.224223ms
+08:35:49.731665 db@close closing
+08:35:49.731963 db@close done T·293.611µs

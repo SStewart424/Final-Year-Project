@@ -1,0 +1,71 @@
+=============== Aug 27, 2019 (BST) ===============
+08:06:16.656255 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:06:16.658006 db@open opening
+08:06:16.658432 version@stat F·[] S·0B[] Sc·[]
+08:06:16.659185 db@janitor F·2 G·0
+08:06:16.659220 db@open done T·1.185201ms
+08:06:16.659670 db@close closing
+08:06:16.659705 db@close done T·34.66µs
+=============== Aug 27, 2019 (BST) ===============
+08:07:36.213570 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:07:36.213691 version@stat F·[] S·0B[] Sc·[]
+08:07:36.213714 db@open opening
+08:07:36.213751 journal@recovery F·1
+08:07:36.218735 journal@recovery recovering @1
+08:07:36.220219 memdb@flush created L0@2 N·15 S·913B "\x03\xa3\x12..N+\x95,v3":"sec..8\xdac,v2"
+08:07:36.226508 version@stat F·[1] S·913B[913B] Sc·[0.25]
+08:07:36.246094 db@janitor F·3 G·0
+08:07:36.246232 db@open done T·32.430757ms
+08:14:18.144025 db@close closing
+08:14:18.144332 db@close done T·301.603µs
+=============== Aug 27, 2019 (BST) ===============
+08:15:09.872469 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:15:09.872595 version@stat F·[1] S·913B[913B] Sc·[0.25]
+08:15:09.872616 db@open opening
+08:15:09.872656 journal@recovery F·1
+08:15:09.874621 journal@recovery recovering @3
+08:15:09.876403 memdb@flush created L0@5 N·61 S·2KiB "\x10#5..\xe1\xa8\xcc,v75":"\xf6\x03\x97..\xf6/*,v76"
+08:15:09.878565 version@stat F·[2] S·3KiB[3KiB] Sc·[0.50]
+08:15:09.897313 db@janitor F·4 G·0
+08:15:09.897336 db@open done T·24.711783ms
+08:21:21.675680 table@compaction L0·2 -> L1·0 S·3KiB Q·298
+08:21:21.677165 table@build created L1@8 N·56 S·3KiB "\x03\xa3\x12..N+\x95,v3":"\xf6\x03\x97..\xf6/*,v76"
+08:21:21.677224 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+08:21:21.683276 table@compaction committed F-1 S-553B Ke·0 D·20 T·7.547399ms
+08:21:21.683406 table@remove removed @2
+08:25:41.894247 db@close closing
+08:25:41.894444 db@close done T·189.923µs
+=============== Aug 27, 2019 (BST) ===============
+08:36:10.016641 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:36:10.016771 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+08:36:10.016795 db@open opening
+08:36:10.016845 journal@recovery F·1
+08:36:10.019121 journal@recovery recovering @6
+08:36:10.024615 memdb@flush created L0@9 N·933 S·47KiB "\x1a\xed\xf1..\x89\x86\xd8,v1011":"\x91\xd7t..\x14\xed\xf4,v1009"
+08:36:10.026893 version@stat F·[1 1] S·50KiB[47KiB 3KiB] Sc·[0.25 0.00]
+08:36:10.046969 db@janitor F·5 G·1
+08:36:10.047006 db@janitor removing table-5
+08:36:10.047117 db@open done T·30.308141ms
+08:39:49.637818 table@compaction L0·1 -> L1·1 S·50KiB Q·1395
+08:39:49.640337 table@build created L1@12 N·678 S·38KiB "\x03\xa3\x12..N+\x95,v3":"\xf6\x03\x97..\xf6/*,v76"
+08:39:49.640400 version@stat F·[0 1] S·38KiB[0B 38KiB] Sc·[0.00 0.00]
+08:39:49.641174 table@compaction committed F-1 S-11KiB Ke·0 D·311 T·3.314587ms
+08:39:49.641272 table@remove removed @8
+08:40:47.641109 db@close closing
+08:40:47.641190 db@close done T·79.871µs
+=============== Aug 27, 2019 (BST) ===============
+08:41:12.507427 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:41:12.507571 version@stat F·[0 1] S·38KiB[0B 38KiB] Sc·[0.00 0.00]
+08:41:12.507594 db@open opening
+08:41:12.507645 journal@recovery F·1
+08:41:12.509831 journal@recovery recovering @10
+08:41:12.512842 memdb@flush created L0@13 N·582 S·28KiB "H\x01m..\xea\xa1`,v1097":"\xdd\x16\xc9..\n\xee\xaf,v1591"
+08:41:12.515074 version@stat F·[1 1] S·66KiB[28KiB 38KiB] Sc·[0.25 0.00]
+08:41:12.534369 db@janitor F·5 G·1
+08:41:12.534383 db@janitor removing table-9
+08:41:12.534422 db@open done T·26.821647ms
+08:43:46.340945 table@compaction L0·1 -> L1·1 S·66KiB Q·1981
+08:43:46.350179 table@build created L1@16 N·1066 S·60KiB "\x03\xa3\x12..N+\x95,v3":"\xf6\x03\x97..\xf6/*,v76"
+08:43:46.350252 version@stat F·[0 1] S·60KiB[0B 60KiB] Sc·[0.00 0.00]
+08:43:46.350994 table@compaction committed F-1 S-6KiB Ke·0 D·194 T·9.994229ms
+08:43:46.351116 table@remove removed @12

@@ -1,0 +1,3 @@
+miner.start(1)
+miner.setEtherBase(2b2411231f2ee7f534ea1107034c8b17fb65b785)
+miner.setEtherBase(0x2b2411231f2ee7f534ea1107034c8b17fb65b785)

@@ -1,0 +1,14 @@
+miner.start(1)
+miner.stop
+()
+miner.stop()
+admin.addPeer(enode://2abad869b2696c892bb4c9dadad4a6fb0bf3c206ee733e1048031548262e4737784aa4bc7ebbb3f0ee8b9f61f9b33560cd4562f069b283142f8ab7ae11a93726@81.105.35.74:30303?discport=0)
+admin.addPeer("enode://2abad869b2696c892bb4c9dadad4a6fb0bf3c206ee733e1048031548262e4737784aa4bc7ebbb3f0ee8b9f61f9b33560cd4562f069b283142f8ab7ae11a93726@81.105.35.74:30303?discport=0")
+admin.peers
+admin.nodeInfo
+miner.start(1)
+mine.stop()
+miner.stop()
+miner.start(1)0
+miner.start(1)
+miner.stop()
